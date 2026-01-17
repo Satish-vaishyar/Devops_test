@@ -8,4 +8,9 @@ else:
     b = 30
     c = 16
 
-print(f"Greatest Number: {max(a, b, c)}") 
+a = int(a)
+b = int(b)
+c = int(c)
+
+greatest = max(a, b, c)
+print(f"Greatest Number: {greatest}") 
